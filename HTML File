@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <header>
+        <img src="portfolioImage.jpg", height="80px", width="80px">
+        <div class="logo">Rishika Bishnoi</div>
+        <p class="tagline">Aspiring Web Developer | Creative Thinker</p>
+    </header>
+
+    <section id="about">
+        <img src="Rishika.jpg" alt="Your Photo" class="profile-pic">
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>Hi! I'm Rishika, a passionate web developer specializing in building clean and user-friendly websites. With a strong foundation in HTML and CSS , I'm focused on designing and building responsive, functional websites that solve real-world problems. </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1: Income and Expense Management</h3>
+            <p>It is the process of overseeing and tracking income and expense to achieve financial goals and avoid or reduce debt. It helps to manage income and expense and create a budget that allocates a percentage of income to needs, wants, saving and debt repayment.</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2: Bank Management System</h3>
+            <p>Developed an online Bank Mnagement system to manage personal finances in simply more convinient way. For instance, you can view breakdowns for all your bank accounts ,as well as your total savings. Having a comprehensive understanding of your finances will help you make better decisions.  </p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="RishikaResume.pdf" download>Download My Resume</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email:rishikabishnoi999@gmail.com</p>
+        <p>Phone: 7656568907</p>
+    </section>
+
+    <footer>
+        <p>&copy; All rights reserved.</p>
+    </footer>
+</body>
+</html>
